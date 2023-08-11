@@ -6,17 +6,17 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/tangorpro/aosp_tangorpro.mk)
-$(call inherit-product, device/google/gs201/lineage_common.mk)
+$(call inherit-product, device/google/gs201/lmodroid_common.mk)
 $(call inherit-product, device/google/tangorpro/device-lineage.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel Tablet
-PRODUCT_NAME := lineage_tangorpro
+PRODUCT_NAME := lmodroid_tangorpro
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1600
