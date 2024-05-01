@@ -4,7 +4,7 @@
     "target_path": "device/google/gs201"
   },
   {
-    "remote": "lineage",
+    "remote": "aosp-tangorpro",
     "repository": "device/google/tangorpro-kernel",
     "target_path": "device/google/tangorpro-kernel"
   }
