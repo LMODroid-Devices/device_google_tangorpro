@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "LMODroid-Devices/device_google_gs201",
+    "target_path": "device/google/gs201"
+  },
+  {
+    "remote": "aosp-tangorpro",
+    "repository": "device/google/tangorpro-kernels/6.1",
+    "target_path": "device/google/tangorpro-kernels/6.1"
+  }
+]
